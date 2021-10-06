@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <S.Header>
             <S.Logo src={Logo}></S.Logo>
-            <S.Tittle>ENV Smart Farm</S.Tittle>
+            <S.Tittle>EmV Smart Farm</S.Tittle>
         </S.Header>
     )
 }
