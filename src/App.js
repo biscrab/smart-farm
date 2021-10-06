@@ -1,27 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./contents/Header";
+import * as S from './styled/App'
 
 function App() {
+
+  const Switch = () => {
+    return(
+    <label class="switch"> 
+    <input type="checkbox" /> 
+    <div class="slider round"></div> 
+    </label>
+    );
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <S.Border>
+        <h3>물주기</h3>
+        <h3>온도조절</h3>
+        <h3>습도조절</h3>
+      </S.Border>
+    </>
   );
 }
 
 export default App;
-
-//1
