@@ -1,4 +1,5 @@
 import Header from "./contents/Header";
+import Border from "./contents/Border"
 import * as S from './styled/App'
 
 function App() {
@@ -15,11 +16,7 @@ function App() {
   return (
     <>
       <Header />
-      <S.Border>
-        <h3>물주기</h3>
-        <h3>온도조절</h3>
-        <h3>습도조절</h3>
-      </S.Border>
+      <Border />
     </>
   );
 }
