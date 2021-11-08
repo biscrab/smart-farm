@@ -6,18 +6,18 @@ export const Header = styled.nav`
     height: 60px;
     padding-left: 20px;
     background-color: white;
-`
 
-export const Logo = styled.img`
-    height: 60px;
-`
+    img{
+        height: 60px;
+    }
 
-export const Tittle = styled.h2`
-    margin: 0;
-    background: linear-gradient(to right top, blue, purple);
-    padding-left: 10px;
-    color: transparent;
-    -webkit-background-clip: text;
+    h2{
+        margin: 0;
+        background: linear-gradient(to right top, blue, purple);
+        padding-left: 10px;
+        color: transparent;
+        -webkit-background-clip: text;
+    }
 `
 
 export const Border = styled.div`
@@ -36,5 +36,9 @@ export const Border = styled.div`
         margin: 0;
         color: gray;
         padding-bottom: 30px;
+    }
+
+    div{
+        display: flex;
     }
 `

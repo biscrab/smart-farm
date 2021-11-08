@@ -4,8 +4,8 @@ import Logo from '../images/Logo.png'
 const Header = () => {
     return(
         <S.Header>
-            <S.Logo src={Logo}></S.Logo>
-            <S.Tittle>EmV Smart Farm</S.Tittle>
+            <img src={Logo}></img>
+            <h2>EmV Smart Farm</h2>
         </S.Header>
     )
 }
